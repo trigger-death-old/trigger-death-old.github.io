@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post">
+  <script src="/assets/js/anchor.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      anchors.options.visible = 'touch'; 
+      anchors.add('.post-content > h1, .post-content > h2, .post-content > h3');
+    });
+  </script>
+
+  {%- assign hide_title = page.hide_title | default: false -%}
+  {%- unless hide_title -%}
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+  {%- endunless -%}
+
+  {%- if page.work_in_progress -%}
+    {%- include work-in-progress.html -%}
+  {%- endif -%}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

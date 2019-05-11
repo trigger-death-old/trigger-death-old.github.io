@@ -1,0 +1,19 @@
+.triggerNotifyDivHover:hover {
+	background: rgba(70, 70, 140, 0.5);
+}
+
+.triggerNotifyDivHover {
+	padding-left: 10px;
+}
+
+#triggerNotifyDiv {
+	width: 700px;
+	height: auto;
+
+	margin-top: -150px;
+	margin-left: -350px;
+}
+
+input[type="checkbox"].triggerNotifyCheckbox {
+	display: inline-block;	
+}
