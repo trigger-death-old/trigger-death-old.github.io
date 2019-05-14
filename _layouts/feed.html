@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-{% if page.xsl %}
+{% include redirect-feed.html %}
+<!--{% if page.xsl %}
   <?xml-stylesheet type="text/xml" href="{{ '/feed.xslt.xml' | absolute_url }}"?>
 {% endif %}
 <feed xmlns="http://www.w3.org/2005/Atom" {% if site.lang %}xml:lang="{{ site.lang }}"{% endif %}>
@@ -92,4 +93,4 @@
       {% endif %}
     </entry>
   {% endfor %}
-</feed>
+</feed>-->
