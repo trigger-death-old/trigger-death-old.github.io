@@ -28,17 +28,19 @@ theme_color: "#00C6D8"
 
 # Contacts
 github_username: trigger-segfault
-reddit_username: trigger_death
-steam_username: trigger_death
+reddit_username: trigger_segfault
+steam_username: trigger_segfault
+steam_url: trigger_death
 discord_name: trigger_development
 discord_invite: https://discord.gg/vB7jUbY
-youtube_channel_name: Trigger_Death
+youtube_channel_name: trigger_segfault
 youtube_channel: UCGQ4ksvfuzCeVbDplBc5yhg
-mal_username: trigger_death
-anilist_username: triggerdeath
-vndb_username: trigger-death
-vndb_userid: 155981
-mfc_username: trigger_death
+mal_username: trigger_segfault
+anilist_username: triggersegfault
+vndb_username: triggersegfault
+vndb_userid: 162862
+mfc_username: trigger_segfault
+linkedin_username: robert-g-jordan
 
 # Settings
 url: "https://trigger-death.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -57,7 +59,7 @@ header_pages: # extensions are not required, both .md and .html pages will be se
   - resume
 
 rct2tools_header_pages:
-  - tools/rct2-tools/index.html
+  - tools/rct2-tools/rct2-tools.html
   - tools/rct2-tools/content-browser.html
   - tools/rct2-tools/graphics-extractor.html
   - tools/rct2-tools/group-creator.html
@@ -79,7 +81,6 @@ defaults:
     scope:
       path: "tools/rct2-tools"
     values:
-      layout: "rct2-tools"
       title_postfix: Trigger's RCT2 Tools
       image: /tools/rct2-tools/assets/icon-256.png
       tags: [trigger_death,trigger_segfault,trigger,robert jordan,rct2,rollercoaster,tycoon,2,openrct2]
@@ -87,7 +88,6 @@ defaults:
     scope:
       path: "mods/trigger-cookies"
     values:
-      layout: "trigger-cookies"
       title_postfix: An outdated Cookie Clicker mod
       image: /mods/trigger-cookies/assets/icon-256.png
       tags: [trigger_death,trigger_segfault,trigger,robert jordan,cookies,triggercookies,cookie,clicker,mod]
@@ -128,7 +128,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - assets/ts/
-  - run-lan.ps1
-  - run-local.ps1
-  - GitHub-Pages.code-workspace
+  - serve.cmd
+  - serve.ps1
+  - trigger-segfault.code-workspace

@@ -1,9 +1,7 @@
 ---
-# A simple redirect to /resume.pdf.
-# Also used to add the Resume option to the navigation bar.
-layout: page
+layout: page-redirect
 title: Resume
 permalink: /resume/
-#redirect_to:
-#  - /resume.pdf
+image: /assets/icon-resume-256.png
+description: View Robert Jordan's resume. Listing skills, education, experience, and specialties.
 ---
