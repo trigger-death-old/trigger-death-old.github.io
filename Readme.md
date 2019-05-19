@@ -1,7 +1,7 @@
 ---
 published: false
 ---
-# Trigger GitHub Pages Redirecter
+# Trigger's Tools & Games GitHub Pages Redirector
 
 This is nothing more than a dedicated site for redirects to the new domain [trigger-segfault.github.io](http://trigger-segfault.github.io/).
 
